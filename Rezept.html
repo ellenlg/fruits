@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rezepte</title>
+
+  <link rel="icon" type="image/x-icon" href="favicon_apple.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- W3.CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+
+  <!-- Eigenes CSS -->
+  <link rel="stylesheet" href="abschlussarbeit.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="w3-bar w3-border w3-light-grey">
+    <div class="w3-right">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="fruechte.html" class="w3-bar-item w3-button">Früchte</a>
+      <a href="rezept.html" class="w3-bar-item w3-button w3-text-teal">Rezepte</a>
+    </div>
+  </nav>
+
+    <!-- HEADER Rezepte -->
+    <div class="w3-display-container">
+      <img src="Fruchtsalat.jpg" 
+          style="width:100%; height:400px; object-fit:cover;"
+          alt="Frucht Salat" 
+          class="w3-opacity-min">
+
+      <div class="w3-display-middle w3-text-black w3-center">
+        <h1 class="w3-xxxlarge w3-animate-top">Frucht Salat</h1>
+      </div>
+    </div>
+
+  <!-- 3 SPALTEN -->
+  <div class="w3-row-padding w3-padding-32"
+      style="display:flex; align-items:stretch; flex-wrap:wrap;">
+
+    <!-- Zutaten -->
+    <div class="w3-col l3 m5 s12" style="display:flex;">
+      <div style="
+        background-color: #dfffe0;
+        padding: 20px;
+        border-radius: 15px;
+        border: 2px solid #8fe388;
+        width:100%;
+        margin-bottom: 20px;
+      ">
+
+        <h3>Zutaten</h3>
+        <h4>4 Portionen</h4>
+
+        <ul class="w3-ul w3-card" style="background-color: #ffffff;">
+          <li>1 dl Zitronensaft</li>
+          <li>etwas Zucker</li>
+          <li>1 Apfel</li>
+          <li>1 Birne</li>
+          <li>3 Aprikosen</li>
+          <li>3 Zwetschgen</li>
+          <li>1 Ananas</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="w3-col l6 m7 s12" style="display:flex;">
+      <div style="
+        background-color: #fff4cc;
+        padding: 20px;
+        border-radius: 15px;
+        border: 2px solid #ffe066;
+        width:100%;
+        margin-bottom: 20px;
+      ">
+        <h2>Zubereitung</h2>
+
+      <p> 1. Alle Früchte waschen, schälen und in kleine Stücke schneiden.<br> 
+        2. Die geschnittenen Früchte in eine grosse Schüssel geben.<br> 
+        3. Den Zitronensaft über die Früchte träufeln und vorsichtig vermischen.<br> 
+        4. Nach Belieben mit Zucker oder Honig süssen und nochmals vorsichtig vermischen.<br> 
+        5. Den Fruchtsalat für mindestens 30 Minuten im Kühlschrank ziehen lassen, damit sich die Aromen verbinden.<br> 
+        6. Anrichten und mit frischen Minzblättern garnieren. 
+        </p> 
+        
+        <img src="lightbulb.png" style="width: 25px; margin-top: 20px;"> 
+        
+        <p> Je nach Saison kann der Salat mit anderen Früchten und Beeren zubereitet werden. 
+            Im Winter eignen sich vor allem rote und grüne Äpfel und Birnen, im Sommer ergänzen 
+            Beeren den Fruchtsalat optimal. 
+            Welche Früchte und Beeren aktuell Saison haben, 
+            zeigt dir der <a href="https://www.swissmilk.ch/de/rezepte-kochideen/saisonkalender/?count=154" target="_blank"> Saisonkalender von Swissmilk</a>. 
+          </p> 
+      <br>  
+      
+      <p> 1 Portion enthält:<br> 
+        Energie: 900 kJ / 215 kcal, Fett: 13 g, Kohlenhydrate: 22 g, Eiweiss: 2 g 
+      </p>
+      </div>
+    </div>
+
+  <!-- Utensilien -->
+    <div class="w3-col l3 m5 s12" style="display:flex;">
+      <div style="
+        background-color: #ffe5e5;
+        padding: 20px;
+        border-radius: 15px;
+        border: 2px solid #ffb3b3;
+        text-align:center;
+        width:100%;
+        margin-bottom: 20px;
+      ">
+        <h2>Utensilien</h2>
+
+        <img src="brett.png" style="width:70%; margin-bottom:10px;"> <br>
+        <img src="messer.png" style="width:40%; margin-bottom:10px;"> <br>
+        <img src="schuessel.png" style="width:40%;">
+      </div>
+    </div>
+
+  </div>
+  <!-- VIDEO -->
+  <div class="w3-center">
+    <h2>Endergebnis</h2>
+  </div>
+  <div class="w3-center w3-padding-32">
+    <video class="w3-round-large"
+          style="width:100%; max-width:800px; height:auto;"
+          controls preload="none">
+
+      <source src="salatvideo.mp4" type="video/mp4">
+      <source src="salatvideo.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+
+  <!-- Modal window button -->
+  <div class="w3-center w3-padding-32">
+    <button onmouseover="document.getElementById('popup').style.display='block'" 
+            onmouseout="document.getElementById('popup').style.display='none'"
+            class="w3-button w3-pink w3-large w3-round">
+      Weitere Rezepte
+    </button>
+  </div>
+
+  <!-- Modal window -->
+  <div id="popup" class="w3-modal" style="display:none;" 
+      onmouseover="document.getElementById('popup').style.display='block'"
+      onmouseout="document.getElementById('popup').style.display='none'">
+    <div class="w3-modal-content w3-animate-bottom w3-padding w3-round-large">
+      <span onclick="document.getElementById('popup').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+      <h2>Weitere Rezepte</h2>
+      <a href="https://www.swissmilk.ch/de/rezepte-kochideen/rezepte/LM201510_10/zwetschgenwaehe/?collection=97137" target="_blank" class="w3-button w3-block w3-yellow w3-margin-bottom" >
+        Früchte Wähe
+      </a>
+      <a href="https://www.swissmilk.ch/de/rezepte-kochideen/rezepte/CHDO201612_28/beeren-smoothie/" target="_blank" class="w3-button w3-block w3-orange w3-margin-bottom">
+        Beeren Smoothie
+      </a>
+      <a href="https://www.swissmilk.ch/de/rezepte-kochideen/rezepte/LM200804_48/rhabarbersorbet-auf-ingwer-tuiles/?collection=97042" target="_blank" class="w3-button w3-block w3-green w3-margin-bottom">
+        Rabarber Sorbet
+      </a>
+    </div>
+  </div>
+
+  <!-- ZWEI-SPALTEN-ABSCHNITT -->
+<div class="w3-row-padding w3-padding-32 two-column-responsive always-two">
+
+  <!-- TEXT -->
+  <div class="w3-col l9 m6 s6" style="display:flex;">
+    <div style="
+      background-color:#fff4cc;
+      padding:20px;
+      border-radius:15px;
+      border:2px solid #ffe066;
+      width:100%;
+      text-align:center;
+    ">
+      <h2>The End – Thank you for kooking!</h2>
+
+      </p>
+    </div>
+  </div>
+
+  <!-- BILD -->
+  <div class="w3-col l3 m6 s6" style="display:flex;">
+    <div style="
+      width:100%;
+      overflow:hidden;
+      border-radius:15px;
+    ">
+      <img src="ratatouille.jpg"
+           alt="Gesunde Früchte"
+           style="
+             width:100%;
+             height:100%;
+             object-fit:cover;
+           ">
+    </div>
+  </div>
+
+</div>
+
+  <!-- FOOTER -->
+  <footer class="w3-container w3-teal w3-padding-32 w3-margin-top">
+    <div class="w3-row-padding">
+
+      <div class="w3-third">
+        <h3>Fruchtmix</h3>
+        <p>by Lara Bernet, Elin Müller und Ellen Pfäffli</p>
+      </div>
+
+      <div class="w3-third">
+        <h3>Socials</h3>
+        <p><a href="https://www.instagram.com/ki_fruechte/" class="w3-text-white" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+        <p><a href="https://www.facebook.com/" class="w3-text-white" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+        <p><a href="https://www.linkedin.com/company/jufico-gmbh/" class="w3-text-white" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      </div>
+
+      <div class="w3-third">
+        <h3>Formelles</h3>
+        <p>Bernet_Mueller_Pffaeli_mma25b_M287</p>
+        <p>01.06.2026</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+

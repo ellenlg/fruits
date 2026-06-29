@@ -1,0 +1,100 @@
+/* STANDARD TEXT */
+body {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    font-weight: 400;
+}
+
+/* TITEL */
+h1, h2, h3{
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+/* HOVER CARD */
+.smooth-hover {
+    transition: all 0.3s ease;
+}
+
+.smooth-hover:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* TEAM BILDER */
+.team-img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    background-color: #f1f1f1;
+}
+
+.two-column-responsive {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.two-column-responsive .w3-col {
+  min-width: 0;
+}
+
+.full-width-mobile-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .two-column-responsive {
+    flex-direction: column;
+  }
+
+  .two-column-responsive .w3-col {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .two-column-responsive.always-two {
+    flex-direction: row;
+  }
+
+  .two-column-responsive.always-two .w3-col {
+    width: 50% !important;
+    max-width: 50% !important;
+  }
+
+  .two-column-responsive .full-width-mobile-image {
+    height: auto !important;
+  }
+}
+
+/* Accordion */
+.page-fruechte details summary { cursor: pointer; font-weight: 600; padding: 0.4rem 0.25rem; list-style: none; outline: none; }
+.page-fruechte .accordion-section { margin-bottom: 24px; }
+.responsive-audio { width: 100%; max-width: 560px; }
+
+/* MOBILE ADJUSTMENTS */
+@media (max-width: 767px) {
+  /* Headerbild kleiner auf Handys */
+  .w3-display-container img {
+    height: 200px !important;
+    object-fit: cover;
+  }
+
+  /* Titelgrössen anpassen */
+  h1.w3-xxxlarge {
+    font-size: 1.8rem;
+  }
+
+  /* Werte-Karten untereinander */
+  .w3-third {
+    width: 100% !important;
+    margin-bottom: 12px;
+  }
+
+  /* Details innerer Text */
+  .page-fruechte details p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
